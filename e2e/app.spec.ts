@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test'
 
 test('has title', async ({ page }) => {
   // go to this page
-  await page.goto('http://localhost:3000/')
+  await page.goto('/')
 
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Nuxt/)
@@ -10,7 +10,7 @@ test('has title', async ({ page }) => {
 
 test('get started link', async ({ page }) => {
   // got to this page
-  await page.goto('http://localhost:3000/')
+  await page.goto('/')
 
   // listen for the page event for a new page to be recognized
   const pagePromise = page.context().waitForEvent('page')

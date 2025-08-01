@@ -1,75 +1,15 @@
-# Nuxt Minimal Starter
+# qa_testing_demo
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project showcases a mock smart home web application coupled with a Playwright testing suite and CI/CD workflow.
 
-## Setup
+See the deployed project here: TBD
 
-Make sure to install dependencies:
+## Local Development Setup
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+1. Clone the repo to your machine.
+2. Instal dependencies: `pnpm install`
+3. Run the application: `pnpm dev`
+   - starts the development server on `http://localhost:3000`
+4. Run Playwright tests.
+   - in the terminal: `pnpm test:e2e`
+   - with Playwright UI: `pnpm test:ui`

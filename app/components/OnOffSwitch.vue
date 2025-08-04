@@ -1,10 +1,10 @@
 <template>
-  <button
+  <UButton
     @click="buttonClick"
     data-testid="switch-toggle"
   >
     ON/OFF Switch
-  </button>
+  </UButton>
   <span data-testid="switch-label">
     {{ isOn ? 'ON' : 'OFF' }}
   </span>

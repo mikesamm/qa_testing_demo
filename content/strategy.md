@@ -14,7 +14,7 @@ The goal is to ensure a high-quality user experience with core features.
 
 - Validate functionality on critical user workflows
 - Ensure consistent device feedback and device state accuracy
-- Establish automated end-to-end tests for \early and continuous quality assurance
+- Establish automated end-to-end tests for early and continuous quality assurance
 
 ## Scope
 
@@ -41,7 +41,7 @@ The goal is to ensure a high-quality user experience with core features.
 
 ## Test types
 
-table?!?!?!
+use table??
 
 - Functional (automated and manual) - ensure behavior matches requirements
 - Integration - validate new contributions integrate with production code
@@ -49,15 +49,13 @@ table?!?!?!
 
 ## Tools
 
-table ?!?!?!?!?!
+use table??
 
 - Playwright for end-to-end browser testing
 - Github Actions for CI workflow
 - Nuxt framework for mock smart home application
 
 ## Environment
-
-tables?!?!?
 
 - Local development server
 - Chromium, Firefox, and Webkit browsers

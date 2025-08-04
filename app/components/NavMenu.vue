@@ -4,17 +4,17 @@ import type { NavigationMenuItem } from '@nuxt/ui'
 const items = ref<NavigationMenuItem[]>([
   {
     label: 'Dashboard',
-    icon: 'i-lucide-book-open',
+    icon: 'i-lucide-layout-dashboard',
     to: '/',
   },
   {
     label: 'Strategy',
-    icon: 'i-lucide-database',
+    icon: 'i-lucide-notebook-pen',
     to: '/strategy',
   },
   {
     label: 'Reports',
-    icon: 'i-lucide-box',
+    icon: 'i-lucide-clipboard-check',
     to: '/reports',
   },
   {

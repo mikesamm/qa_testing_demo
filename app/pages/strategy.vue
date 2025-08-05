@@ -17,8 +17,7 @@ const { data: strategy } = await useAsyncData(route.path, () => {
 
 useSeoMeta({
   title: strategy.value?.title || 'Strategy',
-  description:
-    strategy.value?.description || 'Strategy for the Leviton QA Demo',
+  description: strategy.value?.description || 'Strategy for the QA Demo',
 })
 </script>
 

@@ -2,7 +2,7 @@
 title: Testing Strategy
 ---
 
-# Leviton Smart Home Web Application
+# Smart Home Web Application
 
 ### Overview
 

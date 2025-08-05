@@ -3,7 +3,7 @@
     <ContentRenderer
       v-if="strategy"
       :value="strategy"
-      class="prose flex flex-col justify-center"
+      class="markdown flex flex-col justify-center"
     />
     <h1 v-else>Something went wrong.</h1>
   </div>

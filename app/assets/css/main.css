@@ -3,7 +3,7 @@
 
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 /* Markdown styling */
@@ -67,4 +67,5 @@
   height: 2.75rem;
   border-radius: 10%;
   background: #fff;
+  border: 1px solid #0f172b;
 }

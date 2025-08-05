@@ -39,6 +39,10 @@
   list-style-type: disc;
 }
 
+.markdown ol {
+  list-style-type: decimal;
+}
+
 /* Devices */
 
 .single-light {

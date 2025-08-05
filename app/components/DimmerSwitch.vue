@@ -1,7 +1,6 @@
 <template>
   <USlider
     v-model="intensity"
-    default-value="0"
     orientation="vertical"
     class="h-48"
   />

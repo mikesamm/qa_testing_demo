@@ -3,11 +3,8 @@
     @click="buttonClick"
     data-testid="switch-toggle"
   >
-    ON/OFF Switch
+    {{ isOn ? 'Turn OFF' : 'Turn ON' }}
   </UButton>
-  <span data-testid="switch-label">
-    {{ isOn ? 'ON' : 'OFF' }}
-  </span>
 </template>
 
 <script setup lang="ts">

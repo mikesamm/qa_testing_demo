@@ -13,5 +13,13 @@ export default defineNuxtConfig({
         h4: true,
       },
     },
+    build: {
+      markdown: {
+        toc: {
+          depth: 3,
+          searchDepth: 3,
+        },
+      },
+    },
   },
 })

@@ -71,7 +71,14 @@ Users expect the application to be intuitive, reliable, and responsive. Device s
 ### Responsive / mobile view behavior
 
 - Touch interactions for device controls on mobile devices
-- Layout adaptation for tablet (768px-1024px) and phone (320px-767px) breakpoints
+
+### Accessibility Testing
+
+- WCAG 2.1 Level AA compliance validation
+- Keyboard navigation testing (tab order, focus indicators)
+- Screen reader compatibility (NVDA, JAWS, VoiceOver)
+- Color contrast verification (4.5:1 for normal text, 3:1 for large text)
+- Alternative text validation for device status indicators
 
 ## Out of Scope
 
@@ -81,12 +88,13 @@ Users expect the application to be intuitive, reliable, and responsive. Device s
 
 ## Test types
 
-| **Type**        | **Purpose**                                                            |
-| --------------- | ---------------------------------------------------------------------- |
-| Functional      | Ensure behavior matches requirements                                   |
-| Integration     | Validate new contributions integrate with current production code      |
-| End-to-end      | Simulate user flows in multiple browser environments                   |
-| Visual / manual | Manually confirm user flows are executable in all browser environments |
+| **Type**        | **Purpose**                                                                            |
+| --------------- | -------------------------------------------------------------------------------------- |
+| Functional      | Ensure behavior matches requirements                                                   |
+| Integration     | Validate new contributions integrate with current production code                      |
+| End-to-end      | Simulate user flows in multiple browser environments                                   |
+| Visual / manual | Manually confirm user flows are executable in all browser environments                 |
+| Accessibility   | Ensure application meets WCAG 2.1 AA standards and is usable by assistive technologies |
 
 ## Tools
 
@@ -97,6 +105,7 @@ Users expect the application to be intuitive, reliable, and responsive. Device s
 | Nuxt           | full-stack web app framework   | https://nuxt.com/                  |
 | Vercel         | app deployment                 | https://vercel.com/                |
 | GitHub Issues  | bug reporting / defect logging | https://docs.github.com/en/issues  |
+| WAVE           | Web accessibility evaluation   | https://wave.webaim.org/           |
 
 ## Environment
 
@@ -124,14 +133,17 @@ Users expect the application to be intuitive, reliable, and responsive. Device s
 
 ### Non-Functional Requirements
 
-| **ID** | **Requirement**                                                                               | **Test Priority** | **Test Areas**                     |
-| ------ | --------------------------------------------------------------------------------------------- | ----------------- | ---------------------------------- |
-| NFR-01 | Device state changes must be reflected in UI within 2 seconds of user action                  | High              | Performance, State Synchronization |
-| NFR-02 | Application must handle API failures gracefully with user-friendly error messages             | High              | Error Handling, Reliability        |
-| NFR-03 | UI must adapt responsively to screen sizes from 320px (mobile) to 1440px+ (desktop)           | Medium            | Responsive Design                  |
-| NFR-04 | Application must function consistently across Chrome, Firefox, Safari, and Edge browsers      | Medium            | Cross-browser Compatibility        |
-| NFR-05 | Automation triggers must execute within 30 seconds of scheduled time                          | High              | Automation Reliability             |
-| NFR-06 | System must maintain device state accuracy - displayed states must match actual device states | High              | Data Integrity                     |
+| **ID** | **Requirement**                                                                               | **Test Priority** | **Test Areas**                       |
+| ------ | --------------------------------------------------------------------------------------------- | ----------------- | ------------------------------------ |
+| NFR-01 | Device state changes must be reflected in UI within 2 seconds of user action                  | High              | Performance, State Synchronization   |
+| NFR-02 | Application must handle API failures gracefully with user-friendly error messages             | High              | Error Handling, Reliability          |
+| NFR-03 | UI must adapt responsively to screen sizes from 320px (mobile) to 1440px+ (desktop)           | Medium            | Responsive Design                    |
+| NFR-04 | Application must function consistently across Chrome, Firefox, Safari, and Edge browsers      | Medium            | Cross-browser Compatibility          |
+| NFR-05 | Automation triggers must execute within 30 seconds of scheduled time                          | High              | Automation Reliability               |
+| NFR-06 | System must maintain device state accuracy - displayed states must match actual device states | High              | Data Integrity                       |
+| NFR-07 | Application must meet WCAG 2.1 Level AA accessibility standards                               | Medium            | Accessibility, Compliance            |
+| NFR-08 | All interactive elements must be keyboard accessible with visible focus indicators            | Medium            | Accessibility, Keyboard Navigation   |
+| NFR-09 | Device status must be conveyed through multiple methods (visual, text, ARIA labels)           | Medium            | Accessibility, Screen Reader Support |
 
 ### Test Coverage Priority
 
@@ -249,13 +261,11 @@ Scenario: Toggle light switch
 - **Related Issues**: Links to similar or dependent bugs
 - **Test Case Reference**: Which test case uncovered the defect
 
-**GitHub Issue Template:** There is a "Bug Report" template option when making an issue on the [repository](https://github.com/mikesamm/qa_testing_demo/issues).
+**GitHub Issue Template:** There is a "Bug Report" template option that follows these logging requirements on the [repository](https://github.com/mikesamm/qa_testing_demo/issues).
 
 ## Future Enhancements
 
 - Cloud server integration for authenticated, off-site device control
-- ADA Accessibility testing
-- Expand for edge cases
 
 ## Documentation
 

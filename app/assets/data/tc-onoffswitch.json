@@ -1,6 +1,6 @@
 [
   {
-    "Test Case ID": "Switch_001",
+    "Test Case ID": "S_001",
     "Requirement ID": "FR-02",
     "Test Scenario": "User toggles switch to turn a light on",
     "Case Description": "Toggle switch ON",
@@ -13,7 +13,7 @@
     "Status Pass/Fail": ""
   },
   {
-    "Test Case ID": "Switch_002",
+    "Test Case ID": "S_002",
     "Requirement ID": "FR-02",
     "Test Scenario": "User toggles switch to turn a light on",
     "Case Description": "Toggle switch OFF",
@@ -26,7 +26,7 @@
     "Status Pass/Fail": ""
   },
   {
-    "Test Case ID": "Switch_003",
+    "Test Case ID": "S_003",
     "Requirement ID": "FR-02",
     "Test Scenario": "User toggles switch to turn a light on",
     "Case Description": "Toggle switch multiple times",

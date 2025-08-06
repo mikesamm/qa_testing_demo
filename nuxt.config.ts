@@ -4,6 +4,14 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/ui', '@nuxt/test-utils/module', '@nuxt/content'],
   css: ['./assets/css/main.css'],
+  app: {
+    head: {
+      title: 'Smart Home QA Demo',
+      htmlAttrs: {
+        lang: 'en',
+      },
+    },
+  },
   content: {
     renderer: {
       anchorLinks: {

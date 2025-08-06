@@ -14,11 +14,6 @@ const route = useRoute()
 const { data: strategy } = await useAsyncData(route.path, () => {
   return queryCollection('docs').first()
 })
-
-useSeoMeta({
-  title: strategy.value?.title || 'Strategy',
-  description: strategy.value?.description || 'Strategy for the QA Demo',
-})
 </script>
 
 <style scoped>

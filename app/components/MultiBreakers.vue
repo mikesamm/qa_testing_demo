@@ -22,6 +22,7 @@
         />
       </UButtonGroup>
     </div>
+    <p>Circuit Breaker Switches</p>
   </div>
 </template>
 

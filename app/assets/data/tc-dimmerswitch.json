@@ -1,0 +1,54 @@
+[
+  {
+    "Test Case ID": "DS_001",
+    "Requirement ID": "FR-02",
+    "Test Scenario": "User slides dimmer to desired intensity",
+    "Case Description": "Slide dimmer from 0% to 100%",
+    "Pre-conditions": "Dimmer switch is at 0%",
+    "Test Steps": "1. Slide dimmer knob from 0% to 100%, taking 5 seconds to complete the action",
+    "Test Data": "n/a",
+    "Expected Result": "Dimmer reflects 100% intensity state, gradually increasing with action",
+    "Post Conditions": "Light indicator reflects 100% intensity",
+    "Actual Result": "",
+    "Status\nPass/Fail": ""
+  },
+  {
+    "Test Case ID": "DS_002",
+    "Requirement ID": "FR-02",
+    "Test Scenario": "User slides dimmer to desired intensity",
+    "Case Description": "Slide dimmer from 100% to 0%",
+    "Pre-conditions": "Dimmer switch is at 100%",
+    "Test Steps": "1. Slide dimmer knob from 100% to 0%, taking 5 seconds to complete the action",
+    "Test Data": "n/a",
+    "Expected Result": "Dimmer reflects0% intensity state, gradually decreasing with action",
+    "Post Conditions": "Light indicator reflects 0% intensity",
+    "Actual Result": "",
+    "Status\nPass/Fail": ""
+  },
+  {
+    "Test Case ID": "DS_003",
+    "Requirement ID": "FR-02",
+    "Test Scenario": "User slides dimmer to desired intensity",
+    "Case Description": "Slide dimmer from 0% to 50%",
+    "Pre-conditions": "Dimmer switch is at 0%",
+    "Test Steps": "1. Slide dimmer knob from 0% to 50%, taking 1 second to complete the action",
+    "Test Data": "n/a",
+    "Expected Result": "Dimmer reflects 50% intensity state",
+    "Post Conditions": "Light indicator reflects 50% intensity",
+    "Actual Result": "",
+    "Status\nPass/Fail": ""
+  },
+  {
+    "Test Case ID": "DS_004",
+    "Requirement ID": "FR-02",
+    "Test Scenario": "User slides dimmer to desired intensity",
+    "Case Description": "Slide dimmer from 50% to 100%",
+    "Pre-conditions": "Dimmer switch is at 50%",
+    "Test Steps": "1. Slide dimmer knob from 50% to 100%, taking 5 seconds to complete the action",
+    "Test Data": "n/a",
+    "Expected Result": "Dimmer reflects 100% intensity state, gradually increasing with action",
+    "Post Conditions": "Light indicator reflects 100% intensity",
+    "Actual Result": "",
+    "Status\nPass/Fail": ""
+  }
+]

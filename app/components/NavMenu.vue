@@ -13,14 +13,14 @@ const items = ref<NavigationMenuItem[]>([
     to: '/strategy',
   },
   {
+    label: 'Test Suites',
+    icon: 'i-lucide-clipboard-check',
+    to: '/testSuite',
+  },
+  {
     label: 'Dashboard',
     icon: 'i-lucide-layout-dashboard',
     to: '/dashboard',
-  },
-  {
-    label: 'Reports',
-    icon: 'i-lucide-clipboard-check',
-    to: '/reports',
   },
   {
     label: 'GitHub',

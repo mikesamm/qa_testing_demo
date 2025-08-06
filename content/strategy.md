@@ -163,23 +163,11 @@ Users expect the application to be intuitive, reliable, and responsive. Device s
 
 ### Test Case Documentation
 
-**Format:** Test cases will be written in Gherkin syntax (Given-When-Then) for clarity and automation compatibility
+**Format:** Test cases will be tracked in a shared Google Sheets document, following this [template](https://docs.google.com/spreadsheets/d/1K052IkA_YzmiDYTXihj9eb6ImOkSiqffKBTmxZTIjXY/edit?usp=sharing).
 
-**Storage:** All test cases stored in the GitHub repository under `/tests/` directory
+**Storage:** All test cases stored in this shared [Google Sheet](https://docs.google.com/spreadsheets/d/1hhWjSmXUbGn3HfyO52k_ludq8DorTfikSrtIOn0Yhjs/edit?usp=sharing).
 
-- Manual test cases: `/tests/manual/`
-- Automated test cases: `/tests/e2e/` (Playwright files)
-
-**Example test case format:**
-
-```
-Feature: Device Control
-Scenario: Toggle light switch
-  Given I am on the smart home dashboard
-  When I click the living room light switch
-  Then the light status should change to "ON"
-  And the switch should display as active
-```
+**Automated test suites are in:** `/tests/e2e/`
 
 ### Test Execution Workflow
 

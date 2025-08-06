@@ -1,0 +1,54 @@
+[
+  {
+    "Test Case ID": "SSS_001",
+    "Requirement ID": "FR-03",
+    "Test Scenario": "User chooses a lighting scene",
+    "Case Description": "Click specific scene",
+    "Pre-conditions": "1. No scene is currently selected, indicator lights are at 0%",
+    "Test Steps": "1. Click one scene on scene selection switch\n2. Repeat test for all scenes",
+    "Test Data": "n/a",
+    "Expected Result": "Scene selection switch reflects chosen scene as active",
+    "Post Conditions": "Indicator lights reflect chosen scene",
+    "Actual Result": "",
+    "Status\nPass/Fail": ""
+  },
+  {
+    "Test Case ID": "SSS_002",
+    "Requirement ID": "FR-03",
+    "Test Scenario": "User chooses a lighting scene",
+    "Case Description": "Click another scene",
+    "Pre-conditions": "1. One scene is already active",
+    "Test Steps": "1. Click different scene",
+    "Test Data": "n/a",
+    "Expected Result": "Scene selection switch reflects most recently chosen scene",
+    "Post Conditions": "Indicator lights reflect most recently chosen scene",
+    "Actual Result": "",
+    "Status\nPass/Fail": ""
+  },
+  {
+    "Test Case ID": "SSS_003",
+    "Requirement ID": "FR-03",
+    "Test Scenario": "User chooses a lighting scene",
+    "Case Description": "Click another scene",
+    "Pre-conditions": "1. One scene is already active",
+    "Test Steps": "1. Click different scene",
+    "Test Data": "n/a",
+    "Expected Result": "Scene selection switch reflects pre-condition scene as inactive",
+    "Post Conditions": "Indicator lights reflect most recently chosen scene",
+    "Actual Result": "",
+    "Status\nPass/Fail": ""
+  },
+  {
+    "Test Case ID": "SSS_004",
+    "Requirement ID": "FR-03",
+    "Test Scenario": "User chooses a lighting scene",
+    "Case Description": "Click scene to turn scene off",
+    "Pre-conditions": "1. One scene is already active",
+    "Test Steps": "1. Click active scene",
+    "Test Data": "n/a",
+    "Expected Result": "Scene selection switch reflects all scenes as inactive",
+    "Post Conditions": "Indicator lights reflect all scenes inactive",
+    "Actual Result": "",
+    "Status\nPass/Fail": ""
+  }
+]

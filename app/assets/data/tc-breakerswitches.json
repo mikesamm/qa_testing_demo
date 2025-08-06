@@ -1,0 +1,80 @@
+[
+  {
+    "Test Case ID": "BS_001",
+    "Requirement ID": "FR-04",
+    "Test Scenario": "User toggles circuit breaker",
+    "Case Description": "Trip 15A breaker",
+    "Pre-conditions": "1. Breaker is ON",
+    "Test Steps": "1. Click a 15A breaker button",
+    "Test Data": "n/a",
+    "Expected Result": "Breaker button reflects TRIPPED/OFF state",
+    "Post Conditions": "1. Breaker indicator reflects TRIPPED state\n2. User receives trip notification",
+    "Actual Result": "",
+    "Status\nPass/Fail": ""
+  },
+  {
+    "Test Case ID": "BS_002",
+    "Requirement ID": "FR-04",
+    "Test Scenario": "User toggles circuit breaker",
+    "Case Description": "Trip 20A breaker",
+    "Pre-conditions": "1. Breaker is ON",
+    "Test Steps": "1. Click a 20A breaker button",
+    "Test Data": "n/a",
+    "Expected Result": "Breaker button reflects TRIPPED/OFF state",
+    "Post Conditions": "1. Breaker indicator reflects TRIPPED state\n2. User receives trip notification",
+    "Actual Result": "",
+    "Status\nPass/Fail": ""
+  },
+  {
+    "Test Case ID": "BS_003",
+    "Requirement ID": "FR-04",
+    "Test Scenario": "User toggles circuit breaker",
+    "Case Description": "Reset 15A breaker",
+    "Pre-conditions": "1. Breaker is TRIPPED",
+    "Test Steps": "1. Click a TRIPPED 15A breaker button",
+    "Test Data": "n/a",
+    "Expected Result": "Breaker button reflects ON state",
+    "Post Conditions": "1. Breaker indicator reflects ON state",
+    "Actual Result": "",
+    "Status\nPass/Fail": ""
+  },
+  {
+    "Test Case ID": "BS_004",
+    "Requirement ID": "FR-04",
+    "Test Scenario": "User toggles circuit breaker",
+    "Case Description": "Reset 20A breaker",
+    "Pre-conditions": "1. Breaker is TRIPPED",
+    "Test Steps": "1. Click a TRIPPED 20A breaker button",
+    "Test Data": "n/a",
+    "Expected Result": "Breaker button reflects ON state",
+    "Post Conditions": "1. Breaker indicator reflects ON state",
+    "Actual Result": "",
+    "Status\nPass/Fail": ""
+  },
+  {
+    "Test Case ID": "BS_005",
+    "Requirement ID": "FR-04",
+    "Test Scenario": "User attempts breaker reset",
+    "Case Description": "Attempt reset 15A breaker",
+    "Pre-conditions": "1. Breaker is TRIPPED\n2. Breaker cannot reset",
+    "Test Steps": "1. Click a TRIPPED 15A breaker button",
+    "Test Data": "n/a",
+    "Expected Result": "Breaker button continues to reflect TRIPPED/OFF state",
+    "Post Conditions": "1. Breaker indicator continues to reflect TRIPPED state\n2. User receives notification for unsuccessful reset attempt",
+    "Actual Result": "",
+    "Status\nPass/Fail": ""
+  },
+  {
+    "Test Case ID": "BS_006",
+    "Requirement ID": "FR-04",
+    "Test Scenario": "User attempts breaker reset",
+    "Case Description": "Attempt reset 20A breaker",
+    "Pre-conditions": "1. Breaker is TRIPPED\n2. Breaker cannot reset",
+    "Test Steps": "1. Click a TRIPPED 20A breaker button",
+    "Test Data": "n/a",
+    "Expected Result": "Breaker button continues to reflect TRIPPED/OFF state",
+    "Post Conditions": "1. Breaker indicator continues to reflect TRIPPED state\n2. User receives notification for unsuccessful reset attempt",
+    "Actual Result": "",
+    "Status\nPass/Fail": ""
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "Test Case ID": "Switch_001",
+    "Requirement ID": "FR-02",
+    "Test Scenario": "User toggles switch to turn a light on",
+    "Case Description": "Toggle switch ON",
+    "Pre-conditions": "Switch is in OFF state",
+    "Test Steps": "1. Click switch on app dashboard",
+    "Test Data": "n/a",
+    "Expected Result": "Switch reflects ON state",
+    "Post Conditions": "Light indicator reflects ON state",
+    "Actual Result": "",
+    "Status Pass/Fail": ""
+  },
+  {
+    "Test Case ID": "Switch_002",
+    "Requirement ID": "FR-02",
+    "Test Scenario": "User toggles switch to turn a light on",
+    "Case Description": "Toggle switch OFF",
+    "Pre-conditions": "Switch is in ON state",
+    "Test Steps": "1. Click switch on app dashboard",
+    "Test Data": "n/a",
+    "Expected Result": "Switch reflects OFF state",
+    "Post Conditions": "Light indicator reflects OFF state",
+    "Actual Result": "",
+    "Status Pass/Fail": ""
+  },
+  {
+    "Test Case ID": "Switch_003",
+    "Requirement ID": "FR-02",
+    "Test Scenario": "User toggles switch to turn a light on",
+    "Case Description": "Toggle switch multiple times",
+    "Pre-conditions": "Switch is in OFF state",
+    "Test Steps": "1. Click switch on app dashboard 5 times",
+    "Test Data": "n/a",
+    "Expected Result": "Switch reflects ON state",
+    "Post Conditions": "Light indicator reflects ON state",
+    "Actual Result": "",
+    "Status Pass/Fail": ""
+  }
+]

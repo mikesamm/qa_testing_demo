@@ -1,3 +1,3 @@
 <template>
-  <h1>Test Suite</h1>
+  <h1>Test Suites</h1>
 </template>

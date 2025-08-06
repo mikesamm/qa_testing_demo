@@ -1,8 +1,8 @@
 ---
-title: Testing Strategy
+title: QA Strategy
 ---
 
-# Smart Home Web Application
+# QA Strategy
 
 ## Testing philosophy
 

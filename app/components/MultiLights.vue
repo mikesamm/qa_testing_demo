@@ -19,6 +19,7 @@
         />
       </UButtonGroup>
     </div>
+    <p>Scene Selection</p>
   </div>
 </template>
 

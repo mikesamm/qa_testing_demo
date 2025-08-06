@@ -6,6 +6,7 @@
       orientation="vertical"
       class="h-48"
     />
+    <p>Dimmer</p>
   </div>
 </template>
 

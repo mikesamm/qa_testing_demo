@@ -7,6 +7,7 @@
     >
       {{ isOn ? 'Turn OFF' : 'Turn ON' }}
     </UButton>
+    <p>Basic Switch</p>
   </div>
 </template>
 

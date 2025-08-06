@@ -2,7 +2,7 @@
 
 This project showcases a mock smart home web application coupled with a Playwright testing suite and CI/CD workflow.
 
-See the deployed project here: TBD
+See the deployed project [here](qa-testing-demo-omega.vercel.app).
 
 ## Local Development Setup
 

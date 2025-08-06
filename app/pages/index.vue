@@ -4,7 +4,6 @@
   >
     <h1>Dashboard</h1>
     <div class="flex flex-row justify-between mb-4">
-      <div id="big-single-light"></div>
       <div id="multi-lights">
         <div class="single-light"></div>
         <div class="single-light"></div>

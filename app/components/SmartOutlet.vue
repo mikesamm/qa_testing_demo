@@ -1,10 +1,13 @@
 <template>
-  <UButton
-    @click="buttonClick"
-    data-testid="switch-toggle"
-  >
-    {{ isOn ? 'Turn OFF' : 'Turn ON' }}
-  </UButton>
+  <div class="flex flex-col items-center space-y-4">
+    <div id="outlet"></div>
+    <UButton
+      @click="buttonClick"
+      data-testid="switch-toggle"
+    >
+      {{ isOn ? 'Turn OFF' : 'Turn ON' }}
+    </UButton>
+  </div>
 </template>
 
 <script setup lang="ts">

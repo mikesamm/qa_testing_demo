@@ -5,7 +5,7 @@
       :style="{ border: '1px solid', borderColor: borderColor }"
     ></div>
     <USlider
-      v-model="intensity"
+      v-model="brightness"
       orientation="vertical"
       class="h-48"
     />
@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-const intensity = ref(0)
+const brightness = ref(0)
 const colorMode = useColorMode()
 
 const borderColor = computed(() => {

@@ -1,6 +1,6 @@
 [
   {
-    "Test Case ID": "BS_001",
+    "Test Case ID": "CBS_001",
     "Requirement ID": "FR-04",
     "Test Scenario": "User toggles circuit breaker",
     "Case Description": "Trip 15A breaker",
@@ -13,7 +13,7 @@
     "Status\nPass/Fail": ""
   },
   {
-    "Test Case ID": "BS_002",
+    "Test Case ID": "CBS_002",
     "Requirement ID": "FR-04",
     "Test Scenario": "User toggles circuit breaker",
     "Case Description": "Trip 20A breaker",
@@ -26,7 +26,7 @@
     "Status\nPass/Fail": ""
   },
   {
-    "Test Case ID": "BS_003",
+    "Test Case ID": "CBS_003",
     "Requirement ID": "FR-04",
     "Test Scenario": "User toggles circuit breaker",
     "Case Description": "Reset 15A breaker",
@@ -39,7 +39,7 @@
     "Status\nPass/Fail": ""
   },
   {
-    "Test Case ID": "BS_004",
+    "Test Case ID": "CBS_004",
     "Requirement ID": "FR-04",
     "Test Scenario": "User toggles circuit breaker",
     "Case Description": "Reset 20A breaker",
@@ -52,7 +52,7 @@
     "Status\nPass/Fail": ""
   },
   {
-    "Test Case ID": "BS_005",
+    "Test Case ID": "CBS_005",
     "Requirement ID": "FR-04",
     "Test Scenario": "User attempts breaker reset",
     "Case Description": "Attempt reset 15A breaker",
@@ -65,7 +65,7 @@
     "Status\nPass/Fail": ""
   },
   {
-    "Test Case ID": "BS_006",
+    "Test Case ID": "CBS_006",
     "Requirement ID": "FR-04",
     "Test Scenario": "User attempts breaker reset",
     "Case Description": "Attempt reset 20A breaker",

@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test'
 
-test.describe('On/Off switch', () => {
+test.describe('Basic switch', () => {
   test.beforeAll(async ({ page }) => {
     await page.goto('/')
   })

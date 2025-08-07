@@ -3,7 +3,7 @@
     <h1 class="project-title">Test Suites</h1>
     <h2>Dashboard UI</h2>
     <UTable :data="tc_dashboardUI" />
-    <h2>ON/OFF Switch</h2>
+    <h2>Basic Switch</h2>
     <UTable :data="tc_onOffSwitch" />
     <h2>Dimmer Switch</h2>
     <UTable :data="tc_dimmerSwitch" />

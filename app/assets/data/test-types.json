@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "Functional",
+    "Purpose": "Ensure behavior matches requirements"
+  },
+  {
+    "Type": "Integration",
+    "Purpose": "Verify interactions between components"
+  },
+  {
+    "Type": "End-to-End",
+    "Purpose": "Simulate user flows in multiple browser environments"
+  },
+  {
+    "Type": "Visual/Manual",
+    "Purpose": "Manually confirm user flows are executable in all browser environments"
+  },
+  {
+    "Accessibility": "Ensure application meets WCAG 2.1 AA standards and is usable by assistive technologies"
+  }
+]

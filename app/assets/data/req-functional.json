@@ -1,0 +1,50 @@
+[
+  {
+    "ID": "FR-01",
+    "Requirement": "Users must view a dashboard displaying all connected devices with current status (online/offline, on/off, dimmer level)",
+    "Test Priority": "High",
+    "Test Areas": "Device Control, UI Display"
+  },
+  {
+    "ID": "FR-02",
+    "Requirement": "Users must toggle device states: ON/OFF for lights and outlets, dimming levels 0-100% for compatible lights",
+    "Test Priority": "High",
+    "Test Areas": "Device Control, State Management"
+  },
+  {
+    "ID": "FR-03",
+    "Requirement": "Users must select and activate predefined lighting scenes from scene picker interface",
+    "Test Priority": "Medium",
+    "Test Areas": "Device Control, Scene Management"
+  },
+  {
+    "ID": "FR-04",
+    "Requirement": "Users must control circuit breaker states (on/off) and view breaker status/trip notifications",
+    "Test Priority": "High",
+    "Test Areas": "Device Control, Safety Features"
+  },
+  {
+    "ID": "FR-05",
+    "Requirement": "Users must create automation rules with time-based triggers (specific times, sunset/sunrise, recurring schedules)",
+    "Test Priority": "High",
+    "Test Areas": "Automation Creation"
+  },
+  {
+    "ID": "FR-06",
+    "Requirement": "Users must edit and delete existing automation rules",
+    "Test Priority": "Medium",
+    "Test Areas": "Automation Management"
+  },
+  {
+    "ID": "FR-07",
+    "Requirement": "Automation rules must execute at scheduled times and change target device states accordingly",
+    "Test Priority": "High",
+    "Test Areas": "Automation Execution"
+  },
+  {
+    "ID": "FR-08",
+    "Requirement": "System must prevent creation of conflicting or invalid automation rules (invalid times, conflicting schedules)",
+    "Test Priority": "Medium",
+    "Test Areas": "Automation Validation"
+  }
+]

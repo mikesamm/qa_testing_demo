@@ -20,42 +20,52 @@
   margin-bottom: 2rem;
 }
 
-/* Markdown styling */
+/* strategy page styling */
 
-.markdown h1 {
+.strategy h1 {
   font-size: 2.5rem;
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 1rem;
   text-align: center;
 }
-.markdown h2 {
+.strategy h2 {
   font-size: 2rem;
   font-weight: bold;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
-.markdown h3 {
+.strategy h3 {
   font-size: 1.75rem;
   font-weight: bold;
   margin-top: 1.25rem;
   margin-bottom: 1rem;
 }
-.markdown h4 {
+.strategy h4 {
   font-size: 1.5rem;
   font-weight: bold;
   margin-top: 1rem;
   margin-bottom: 0.75rem;
 }
-.markdown ul {
+.strategy ul {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  padding-left: 1.5rem;
+  padding-left: 3rem;
   list-style-type: disc;
 }
 
-.markdown ol {
+.strategy ol {
+  padding-left: 3rem;
   list-style-type: decimal;
+}
+
+.strategy a {
+  color: #259feb;
+  text-decoration: underline;
+}
+
+.strategy .table-font {
+  font-size: 1rem;
 }
 
 /* Devices */

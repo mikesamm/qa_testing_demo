@@ -1,0 +1,56 @@
+[
+  {
+    "ID": "NFR-01",
+    "Requirement": "Device state changes must be reflected in UI within 2 seconds of user action",
+    "Test Priority": "High",
+    "Test Areas": "Performance, State Synchronization"
+  },
+  {
+    "ID": "NFR-02",
+    "Requirement": "Application must handle API failures gracefully with user-friendly error messages",
+    "Test Priority": "High",
+    "Test Areas": "Error Handling, Reliability"
+  },
+  {
+    "ID": "NFR-03",
+    "Requirement": "UI must adapt responsively to screen sizes from 320px (mobile) to 1440px+ (desktop)",
+    "Test Priority": "Medium",
+    "Test Areas": "Responsive Design"
+  },
+  {
+    "ID": "NFR-04",
+    "Requirement": "Application must function consistently across Chrome, Firefox, Safari, and Edge browsers",
+    "Test Priority": "Medium",
+    "Test Areas": "Cross-browser Compatibility"
+  },
+  {
+    "ID": "NFR-05",
+    "Requirement": "Automation triggers must execute within 30 seconds of scheduled time",
+    "Test Priority": "High",
+    "Test Areas": "Automation Reliability"
+  },
+  {
+    "ID": "NFR-06",
+    "Requirement": "System must maintain device state accuracy - displayed states must match actual device states",
+    "Test Priority": "High",
+    "Test Areas": "Data Integrity"
+  },
+  {
+    "ID": "NFR-07",
+    "Requirement": "Application must meet WCAG 2.1 Level AA accessibility standards",
+    "Test Priority": "Medium",
+    "Test Areas": "Accessibility, Compliance"
+  },
+  {
+    "ID": "NFR-08",
+    "Requirement": "All interactive elements must be keyboard accessible with visible focus indicators",
+    "Test Priority": "Medium",
+    "Test Areas": "Accessibility, Keyboard Navigation"
+  },
+  {
+    "ID": "NFR-09",
+    "Requirement": "Device status must be conveyed through multiple methods (visual, text, ARIA labels)",
+    "Test Priority": "Medium",
+    "Test Areas": "Accessibility, Screen Reader Support"
+  }
+]

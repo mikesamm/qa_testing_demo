@@ -43,6 +43,10 @@
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
+.about-card h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
 .strategy h3 {
   font-size: 1.75rem;
   font-weight: bold;
@@ -55,7 +59,16 @@
   margin-top: 1rem;
   margin-bottom: 0.75rem;
 }
-.strategy ul {
+.strategy h5,
+.about-card h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.strategy ul,
+.about-card ul {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   padding-left: 3rem;

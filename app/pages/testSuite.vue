@@ -1,5 +1,5 @@
 <template>
-  <div class="strategy flex flex-col px-8 pb-12">
+  <div class="strategy flex flex-col px-16 pb-12">
     <h1 class="project-title">Test Suites</h1>
     <h2>Dashboard UI</h2>
     <UTable

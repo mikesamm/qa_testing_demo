@@ -311,6 +311,10 @@
         resets to 0% after page refresh")
       </li>
       <li>
+        <strong>Test Case Reference</strong>: Which test case uncovered the
+        defect
+      </li>
+      <li>
         <strong>Environment</strong>: Browser, OS, device type, application
         version
       </li>
@@ -327,9 +331,6 @@
       </li>
       <li><strong>Feature</strong>: Which feature is affected</li>
       <li>
-        <strong>Screenshots/Recordings</strong>: Visual evidence when applicable
-      </li>
-      <li>
         <strong>Console Logs</strong>: Browser console errors or relevant log
         outputs
       </li>
@@ -340,6 +341,9 @@
 
     <ul>
       <li>
+        <strong>Screenshots/Recordings</strong>: Visual evidence when applicable
+      </li>
+      <li>
         <strong>Reproducibility</strong>: Always, Sometimes, Once (with
         percentage if known)
       </li>
@@ -347,16 +351,12 @@
       <li>
         <strong>Related Issues</strong>: Links to similar or dependent bugs
       </li>
-      <li>
-        <strong>Test Case Reference</strong>: Which test case uncovered the
-        defect
-      </li>
     </ul>
 
     <h4>GitHub Issue Template</h4>
 
     <p>
-      There is a "Bug Report" template option that follows these logging
+      There is a <strong>Bug Report</strong> template that follows these logging
       requirements on the
       <a href="https://github.com/mikesamm/qa_testing_demo/issues">repository</a
       >.

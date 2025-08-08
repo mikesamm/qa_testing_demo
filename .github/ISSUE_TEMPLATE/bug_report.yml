@@ -1,0 +1,121 @@
+name: Bug Report
+description: Log an observed defect
+
+title: '[Clear, concise summary (e.g., "Dimmer switch
+  resets to 0% after page refresh")]'
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Required Information
+
+  - type: textarea
+    id: test_case_ref
+    attributes:
+      label: 'Test Case Reference'
+      description: Which test case uncovered the defect
+      placeholder: e.g. TC_001
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 'Environment'
+      placeholder: Browser, OS, device type, application version
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 'Steps to Reproduce'
+      placeholder: Numbered, specific steps to recreate the issue
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 'Expected Result'
+      placeholder: What should happen
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 'Actual Result'
+      placeholder: What actually happened
+    validations:
+      required: true
+
+  - type: textarea
+    id: severity
+    attributes:
+      label: 'Severity Level'
+      placeholder: Critical, High, Medium, Low
+    validations:
+      required: true
+
+  - type: textarea
+    id: priority
+    attributes:
+      label: 'Priority'
+      placeholder: P1 (Blocker), P2 (High), P3 (Medium), P4 (Low)
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature
+    attributes:
+      label: 'Feature Affected'
+      placeholder: Which feature is affected?
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 'Console / Error Logs'
+      placeholder: Browser console errors or relevant log outputs
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: 'User Impact'
+      placeholder: How this affects end users
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Additional Context
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 'Screenshots / Videos'
+      placeholder: Paste screenshots or links to videos demonstrating the issue
+
+  - type: textarea
+    id: reproducibility
+    attributes:
+      label: 'Reproducibility'
+      placeholder: Always, Sometimes, Once (with percentage if known)
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: 'Workaround'
+      placeholder: Viable workaround if available
+
+  - type: textarea
+    id: related_issues
+    attributes:
+      label: 'Related Issues'
+      placeholder: Links to similar or dependent issues

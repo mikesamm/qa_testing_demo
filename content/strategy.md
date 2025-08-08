@@ -2,7 +2,7 @@
 title: QA Strategy
 ---
 
-# QA Strategy
+# Smart Home Web App QA Strategy
 
 ## Testing philosophy
 
@@ -29,19 +29,19 @@ The Smart Home Web Application is a device management platform that enables user
 
 ### User Technical Proficiency
 
-- Basic users: Comfortable with standard web applications, primarily use manual controls (ON/OFF, dimming)
-- Intermediate users: Create basic automations and schedules
-- Advanced users: Make complex automations and integrate into other smart home systems
+- **Basic users:** Comfortable with standard web applications, primarily use manual controls (ON/OFF, dimming)
+- **Intermediate users:** Create basic automations and schedules
+- **Advanced users:** Make complex automations and integrate into other smart home systems
 
 ### Key user goals
 
-- Remote control: Toggle devices away from physical, direct switch
-- Automation: Set up time-based rules, especially during natural daylight transitions
-- Monitoring: Check device status and connectivity in real-time
+- **Remote control:** Toggle devices away from physical, direct switch
+- **Automation:** Set up time-based rules, especially during natural daylight transitions
+- **Monitoring:** Check device status and connectivity in real-time
 
 ### Critical Success Factors
 
-Users expect the application to be intuitive, reliable, and responsive. Device state changes must be accurately reflected in the interface, automations must trigger consistently, and the system must gracefully handle connectivity issues without compromising user trust or safety.
+Users expect the application to be intuitive, reliable, and responsive. Device state changes must be accurately reflected in the interface, custom automations must trigger consistently, and the system must gracefully handle connectivity issues without compromising user trust or safety.
 
 ## Scope
 
@@ -144,20 +144,6 @@ Users expect the application to be intuitive, reliable, and responsive. Device s
 | NFR-07 | Application must meet WCAG 2.1 Level AA accessibility standards                               | Medium            | Accessibility, Compliance            |
 | NFR-08 | All interactive elements must be keyboard accessible with visible focus indicators            | Medium            | Accessibility, Keyboard Navigation   |
 | NFR-09 | Device status must be conveyed through multiple methods (visual, text, ARIA labels)           | Medium            | Accessibility, Screen Reader Support |
-
-### Test Coverage Priority
-
-**Critical (Must Pass):**
-
-- FR-01, FR-02, FR-04, FR-07, NFR-01, NFR-02, NFR-05, NFR-06
-
-**Important (Should Pass):**
-
-- FR-03, FR-05, FR-06, FR-08, NFR-03, NFR-04
-
-**Nice to Have (Could Pass):**
-
-- Advanced error scenarios, edge case automation rules, extreme viewport testing
 
 ## Test Execution and Reporting
 

@@ -1,0 +1,32 @@
+[
+  {
+    "Tool": "Playwright",
+    "Function": "End-to-end browser testing",
+    "Documentation": "playwright.dev"
+  },
+  {
+    "Tool": "GitHub Actions",
+    "Function": "Continuos integration workflow",
+    "Documentation": "docs.github.com/en/actions"
+  },
+  {
+    "Tool": "Nuxt",
+    "Function": "Full-stack web app framework",
+    "Documentation": "nuxt.com"
+  },
+  {
+    "Tool": "Vercel",
+    "Function": "App deployment",
+    "Documentation": "vercel.com"
+  },
+  {
+    "Tool": "GitHub Issues",
+    "Function": "Bug reporting / defect logging",
+    "Documentation": "docs.github.com/en/issues"
+  },
+  {
+    "Tool": "WAVE",
+    "Function": "Web accessibility evaluation",
+    "Documentation": "wave.webaim.org"
+  }
+]

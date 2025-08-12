@@ -1,13 +1,18 @@
 <template>
   <div class="flex flex-col items-center space-y-4">
-    <div id="outlet"></div>
+    <div
+      id="outlet"
+      class="flex flex-col justify-center"
+    >
+      Smart Outlet
+    </div>
     <UButton
       @click="buttonClick"
       data-testid="switch-toggle"
     >
       {{ isOn ? 'Turn OFF' : 'Turn ON' }}
     </UButton>
-    <p>Basic Switch</p>
+    <p>Outlet Toggle</p>
   </div>
 </template>
 

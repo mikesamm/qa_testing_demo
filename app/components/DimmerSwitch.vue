@@ -2,22 +2,19 @@
   <div class="flex flex-col items-center space-y-4">
     <div
       id="big-single-light"
-      :style="{ border: '1px solid', borderColor: borderColor }"
-    ></div>
+      class="flex flex-row justify-center items-center"
+    >
+      0%
+    </div>
     <USlider
       v-model="brightness"
       orientation="vertical"
       class="h-48"
     />
-    <p>Dimmer</p>
+    <p>Smart Dimmer</p>
   </div>
 </template>
 
 <script setup lang="ts">
 const brightness = ref(0)
-const colorMode = useColorMode()
-
-const borderColor = computed(() => {
-  return colorMode.value === 'dark' ? 'white' : '#0f172b'
-})
 </script>

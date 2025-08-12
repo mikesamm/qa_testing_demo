@@ -4,9 +4,9 @@
       id="breakers"
       class="mb-4"
     >
-      <div class="circuit-breaker"></div>
-      <div class="circuit-breaker"></div>
-      <div class="circuit-breaker"></div>
+      <div class="circuit-breaker flex flex-row justify-center">Breaker 1</div>
+      <div class="circuit-breaker flex flex-row justify-center">Breaker 2</div>
+      <div class="circuit-breaker flex flex-row justify-center">Breaker 3</div>
     </div>
     <div>
       <UButtonGroup
@@ -22,7 +22,7 @@
         />
       </UButtonGroup>
     </div>
-    <p>Circuit Breaker Switches</p>
+    <p>Breaker Toggles</p>
   </div>
 </template>
 

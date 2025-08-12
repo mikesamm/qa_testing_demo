@@ -1,18 +1,15 @@
 <template>
   <div class="flex flex-col items-center space-y-4">
     <div id="multi-lights">
-      <div
-        class="single-light"
-        :style="{ border: '1px solid', borderColor: borderColor }"
-      ></div>
-      <div
-        class="single-light"
-        :style="{ border: '1px solid', borderColor: borderColor }"
-      ></div>
-      <div
-        class="single-light"
-        :style="{ border: '1px solid', borderColor: borderColor }"
-      ></div>
+      <div class="single-light flex flex-row justify-center items-center">
+        0%
+      </div>
+      <div class="single-light flex flex-row justify-center items-center">
+        0%
+      </div>
+      <div class="single-light flex flex-row justify-center items-center">
+        0%
+      </div>
     </div>
     <div>
       <UButtonGroup
@@ -36,10 +33,4 @@
 const { labels } = defineProps<{
   labels: string[]
 }>()
-
-const colorMode = useColorMode()
-
-const borderColor = computed(() => {
-  return colorMode.value === 'dark' ? 'white' : '#0f172b'
-})
 </script>

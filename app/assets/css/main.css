@@ -94,28 +94,35 @@
 .single-light {
   width: 3.125rem;
   height: 3.125rem;
+  color: #0f172b;
+  background: #fff;
   border-radius: 50%;
-  border: 0.125rem solid #fff;
+  border: 1px solid #0f172b;
 }
 
 #big-single-light {
   width: 6.25rem;
   height: 6.25rem;
+  color: #0f172b;
+  background: #fff;
   border-radius: 50%;
-  border: 0.125rem solid #fff;
+  border: 1px solid #0f172b;
 }
 
 #outlet {
   width: 4rem;
   height: 9.375rem;
+  color: #0f172b;
   border-radius: 10%;
   background: #fff;
   border: 1px solid #0f172b;
+  padding-left: 0.5rem;
 }
 
 .circuit-breaker {
   width: 6.25rem;
   height: 2.75rem;
+  color: #0f172b;
   border-radius: 10%;
   background: #fff;
   border: 1px solid #0f172b;

@@ -11,10 +11,9 @@
       class="about-card centered-content mb-12"
     >
       <template #header>
-        <h2>Hi Leviton Engineering Team!</h2>
+        <h2>Hi Bitwarden Engineering Team!</h2>
         <p>
-          My name is Mike, I am a local New Orleans software developer looking
-          to jump into QA.
+          My name is Mike, I am a software developer looking to jump into QA.
         </p>
       </template>
 
